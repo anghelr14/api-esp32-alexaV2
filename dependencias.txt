@@ -1,0 +1,7 @@
+Dependencias NPM para proyectos NODE.JS
+
+1ero
+npm i express morgan ejs pug  /* Posteriormente mysql2 sequelize*/
+
+2do
+npm i --save-dev autoprefixer cssnano gulp gulp-avif gulp-cache gulp-imagemin@7.1.0 gulp-plumber gulp-postcss gulp-sass gulp-sourcemaps gulp-terser-js gulp-webp postcss sass gulp-concat gulp-rename nodemon
