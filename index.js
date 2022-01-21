@@ -5,6 +5,13 @@ const path = require('path');
 /*===== Crear app de express =====*/
 const app = express();
 
+/*===== Configuracion =====*/
+app.set('port', process.env.PORT || 9000);
+
+/*===== Middlewares =====*/
+app.use(express.json());
+
+
 /*===== Donde cargar los archivos estáticos =====*/
 app.use(express.static('public'));
 
@@ -18,4 +25,7 @@ app.set('views', path.join(__dirname, './views'));
 
 app.use('/', routes());
 
-app.listen(9000);
+/*===== Inciar servidor =====*/
+app.listen(app.get('port'), () =>{
+    console.log(`Server on port ${app.get('port')}`);
+});
