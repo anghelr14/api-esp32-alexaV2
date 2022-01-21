@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 
 /*===== Habilitar motor de vistas =====*/
-app.set('view engine', 'ejs');
+app.set('view engine', 'pug');
 
 /*===== Añadir la carpeta de vistas =====*/
 app.set('views', path.join(__dirname, './views'));

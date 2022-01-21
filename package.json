@@ -1,0 +1,45 @@
+{
+  "name": "api-esp32-alexav2",
+  "version": "2.0.0",
+  "description": "api para el consumo en alexa skills",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anghelr14/api-esp32-alexaV2.git"
+  },
+  "author": "Anghel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anghelr14/api-esp32-alexaV2/issues"
+  },
+  "homepage": "https://github.com/anghelr14/api-esp32-alexaV2#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.15",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-webp": "^4.0.1",
+    "nodemon": "^2.0.15",
+    "postcss": "^8.4.5",
+    "sass": "^1.49.0"
+  }
+}
