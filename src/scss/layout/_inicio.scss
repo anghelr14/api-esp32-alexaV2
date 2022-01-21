@@ -1,0 +1,19 @@
+@use "./base/variables" as v;
+@use "./base/mixins" as m;
+
+
+.apis{
+    a{
+        color: v.$grisLetra;
+        font-size: 2rem;
+
+        &:hover{
+            color: darken(v.$grisLetra,10%);
+            border-bottom:1px solid v.$grisLetra;
+        }
+    }
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
