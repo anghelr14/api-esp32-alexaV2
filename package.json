@@ -1,6 +1,9 @@
 {
   "name": "api-esp32-alexav2",
   "version": "2.0.0",
+  "engines": {
+    "node": "14.17.6"
+  },
   "description": "api para el consumo en alexa skills",
   "main": "index.js",
   "scripts": {
