@@ -4,6 +4,7 @@ USE apiEsp32Alexa;
 
 CREATE TABLE users(
     id INT(11) NOT NULL AUTO_INCREMENT,
+    registration VARCHAR(60) NOT NULL ,
     first_name VARCHAR(45) DEFAULT NULL,
     last_name VARCHAR(45) DEFAULT NULL,
     email VARCHAR(45) DEFAULT NULL,
