@@ -10,6 +10,7 @@ module.exports = function () {
     router.get('/api/users',controlador.users)
     router.get('/api/users/name/:name',controlador.userName)
     router.get('/api/users/id/:id',controlador.userId)
+    router.get('/api/users/matricula/:matricula',controlador.matricula)
 
     return router;
 }
