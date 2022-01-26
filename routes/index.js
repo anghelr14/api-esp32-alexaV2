@@ -11,6 +11,8 @@ module.exports = function () {
     router.get('/api/users/name/:name',controlador.userName)
     router.get('/api/users/id/:id',controlador.userId)
     router.get('/api/users/matricula/:matricula',controlador.matricula)
+    router.get('/api/devices',controlador.devices)
+    router.get('/api/devices/nombre/:nombre',controlador.nombreDevices)
 
     return router;
 }
