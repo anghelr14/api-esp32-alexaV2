@@ -1,0 +1,35 @@
+@use "./base/variables" as v;
+@use "./base/mixins" as m;
+.header{
+    background-image: url(../img/waveTop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: v.$blanco;
+
+    @include m.telefono{
+        height: 1rem;
+    }
+    @include m.tablet{
+        height: 70rem;
+    }
+    @include m.desktop{
+        height: 50rem;
+    }
+
+    .banner{
+        padding-top: 4rem;
+        width: 90%;
+        max-width: 120rem;
+        margin: 0 auto;
+        display:flex;
+        justify-content: space-between;
+        img{
+            width: 50rem;
+        }
+
+        h2{
+            font-weight: v.$bold;
+        }
+    }
+    
+}
